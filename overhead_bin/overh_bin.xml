@@ -1,0 +1,13 @@
+<mujoco>
+    <asset>
+        <mesh name="overhead_bin" file="meshes/simplify_Legacy_open.stl"/>
+    </asset>
+    <worldbody>
+        <body name="drawer" pos="1 0 0.5">
+            <geom   type="mesh"
+                    mesh="overhead_bin"
+                    mass="5"
+                    friction="1 0.1 0.1"/>
+        </body>
+    </worldbody>
+</mujoco>
